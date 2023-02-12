@@ -1,0 +1,52 @@
+
+/*This is a comment in CSS*/
+
+body{
+    font-family: Garamond, serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.centered-wrapper{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* When giving a child element position absolute you should give the parent position value as well */
+/* The child will then be positioned absolute in realtion to the box container of the parent */
+/* positioning elements on the page is fundamental to understanding CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+.title{
+    position: relative;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title a{
+    position: absolute;
+}
+
+.title a.cloud-piece{
+    letter-spacing: 30px;
+}
+
+.imagine{
+    font-style: italic;
+}
